@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex.css">
+    <style>
+        table{
+            
+            border-collapse: collapse;
+           
+        }
+        tr,th,td{
+            border: 1px solid black;
+            padding: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="from.html">From</a>
+                    <ul class="dropdown">
+                        <li><a href="Video.html">Video</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="form.html"></a>From</li>
+                        <li><a href="hotel.html">Hotel</a></li>
+                    </ul>
+                </li>
+                <li><a href="hotel.html">Hotel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Table</h1>
+    <table>
+        <caption>Student Information</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>20</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>22</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>21</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">End of Student Information</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <main>
+        <label for="cars">Choose a car :</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </main>
+</body>
+</html>
